@@ -3,13 +3,17 @@
 :root {
   --font-family: 'Monserrat', sans-serif;
 
-  --gradient-text: white;
+  --gradient-text: linear-gradient(90deg, #FFFFFF 0%, #8C8C8C 100%);
   --gradient-bar: linear-gradient();
 
-  --color-bg:black;
-  --color-footer: black;
+  --color-bg:white;
+  --color-footer: linear-gradient(90deg, #d0d0d0f7 0%, #FF3B00 100%);
   --color-blog: white;
-  --color-text: blue;
+  --color-text: black;
   --color-subtext: red;
 
+}
+
+html,body{
+  overflow-x: hidden;
 }

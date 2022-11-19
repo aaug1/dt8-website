@@ -36,10 +36,13 @@ a {
       
 
 .gradient__text {
-  background:var(--gradient-text);
+  background: var(--gradient-text);
   background-clip: text;
-  -webkit-background-clop: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: var(--font-family);
 }
 
 .section__padding {
@@ -76,6 +79,69 @@ a {
             transform: scale(1);
   }
 }
+
+/**slide in animation */
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} 
+
+ @-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/* slide-in */
+.slide-in-left {
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
 
 /* For middle size devices (tablets, etc) */
 @media screen and (max-width: 700px) {

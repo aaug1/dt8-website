@@ -1,0 +1,44 @@
+.dt8__header {
+  display: flex; /*defaults to row*/
+}
+
+.dt8__header-content {
+  justify-content: center;
+  padding: 5%;
+}
+
+
+.dt8__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 5em;
+}
+
+
+.dt8__header-content p {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 27px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dt8__header-content__image img {
+  border-radius: 45%;
+  width: 100%;
+  height: auto;
+  border-color: black;
+}
+
+@media screen and (max-width: 500px){
+  .dt8__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 3em;
+  }
+  
+}
