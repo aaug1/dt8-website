@@ -3,14 +3,17 @@
 :root {
   --font-family: 'Monserrat', sans-serif;
 
-  --gradient-text: linear-gradient(90deg, #FFFFFF 0%, #8C8C8C 100%);
-  --gradient-bar: linear-gradient();
+  --gradient-text: linear-gradient(90deg, #ff0000 0%, #afa7a7 100%);
+  --gradient-bar: linear-gradient(120deg, #CC342D, 50%, #FFFFFF 70%);
+  --gradient-section: linear-gradient(90deg, #FFFFFF 44%, #FFE4E4 86%, #FF6C6C 100%);
+  --gradient-bg: linear-gradient(180deg, #ff7b7b 26%, #ffffff 100%);
 
-  --color-bg:white;
-  --color-footer: linear-gradient(90deg, #d0d0d0f7 0%, #FF3B00 100%);
-  --color-blog: white;
+  --color-bg: white;
+  --color-footer:red;
   --color-text: black;
   --color-subtext: red;
+
+  --color-icon: linear-gradient(90deg, #FFFFFF 0%, #bcbcbc 100%);
 
 }
 

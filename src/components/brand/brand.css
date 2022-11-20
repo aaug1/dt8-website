@@ -1,0 +1,8 @@
+.dt8__brand {
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%), 0 8px 24px rgb(0 0 0 / 50%);
+}
+
+.dt8__brand img {
+  width: 300px;
+  height: auto;
+}

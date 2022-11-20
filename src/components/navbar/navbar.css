@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem 3rem;
+  padding: 0.5rem 3rem;
 }
 
 .dt8__navbar-links {
@@ -18,7 +18,7 @@
   display: inline-block;
   width: 180px;
   height: 75px;
-  background: linear-gradient(90deg, #FFFFFF 0%, #bcbcbc 100%);
+  background: var(--color-icon);
   mask-size: cover;
   mask: url('../../assets/logo.svg');
 }
@@ -63,7 +63,7 @@
 .dt8__navbar-links_container button:hover,
 .dt8__navbar-menu_container button:hover {
   color: black;
-  background-image: linear-gradient(90deg, #FFFFFF 0%, #d65454 100%);
+  background-image: var(--gradient-bar);
 
 }
 
