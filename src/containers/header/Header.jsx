@@ -8,7 +8,7 @@ const Header = () => {
       <div className='container-fluid dt8__header-content'>
         <div className='row align-items-center'>
           <div className='col-lg-6 col-md-12 slide-in-left'>
-            <h1>
+            <h1 className='gradient__text'>
               Detecting more pathogens. Faster.
             </h1>
             <p>

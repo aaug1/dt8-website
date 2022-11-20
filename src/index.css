@@ -7,6 +7,7 @@
   --gradient-bar: linear-gradient(120deg, #CC342D, 50%, #FFFFFF 70%);
   --gradient-section: linear-gradient(90deg, #FFFFFF 44%, #FFE4E4 86%, #FF6C6C 100%);
   --gradient-bg: linear-gradient(180deg, #ff7b7b 26%, #ffffff 100%);
+  --gradient-section-text: linear-gradient(103.22deg, #FFFFFF -13.86%, #F49867 99.55%), #FFFFFF;
 
   --color-bg: white;
   --color-footer:red;

@@ -1,0 +1,85 @@
+.dt8__features {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2rem;
+  box-shadow: 0 0 10px 10px rgb(0,0,0,0.25);
+    /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, #FF0000 0%, #EDE3E175 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, #FF0000 0%, #EDE3E175 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, #FF0000 0%, #EDE3E175 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EDE3E1', endColorstr='#FF0000', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, #FF0000 0%, #EDE3E175 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, #FF0000 0%, #EDE3E175 100%);
+  filter: drop-shadow(0px 4px 4px rgb(0,0,0,0.25))
+}
+
+.dt8__features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.dt8__features-heading h1 {
+  font-style: var(--font-family);
+  font-weight: 800;
+  font-size:calc(12px + 3vw);
+  min-width: 200px;
+  background-color: var(--gradient-section-text);
+}
+
+.dt8__features-heading p {
+  font-style: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-top: 10vh;
+}
+
+
+.dt8__features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 990px) {
+  .dt8__features {
+    flex-direction: column;
+  }
+
+  .dt8__features-heading {
+    margin: 0 0 2rem 0;
+  }
+
+  .dt8__features-heading p{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .dt8__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+

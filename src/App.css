@@ -28,9 +28,8 @@ a {
 }
           
       
-
 .gradient__text {
-  background: var(--gradient-text);
+  background: var(--gradient-section-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -143,7 +142,7 @@ a {
     padding: 4rem; /* same as 4rem 4rem */
   }
   .section__margin {
-    padding: 4rem;
+    margin: 4rem;
   }
 
 }
@@ -154,7 +153,7 @@ a {
     padding: 4rem 2rem;
   }
   .section__margin {
-    padding: 4rem 2rem;
+    margin: 2rem 0rem;
   }
 
 }
