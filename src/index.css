@@ -8,6 +8,7 @@
   --gradient-section: linear-gradient(90deg, #FFFFFF 44%, #FFE4E4 86%, #FF6C6C 100%);
   --gradient-bg: linear-gradient(180deg, #ff7b7b 26%, #ffffff 100%);
   --gradient-section-text: linear-gradient(103.22deg, #FFFFFF -13.86%, #F49867 99.55%), #FFFFFF;
+  --gradient-text2: radial-gradient(circle at 50% 50%, rgba(233, 30, 99, 1) 0%, rgba(103, 58, 183, 1) 100%);
 
   --color-bg: white;
   --color-footer:red;

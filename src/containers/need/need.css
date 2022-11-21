@@ -1,0 +1,58 @@
+.dt8__need__image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt8__need__image img {
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.dt8__need__statement {
+  flex: 2;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+
+}
+
+.dt8__need__statement h1 {
+  width: 100%;
+  height: auto;
+  border-color: black;
+}
+
+.dt8__need__statement h1 span {
+  font-family: var(--font-family);
+  font-size: 3vw;
+}
+
+.dt8__need__statement span:nth-child(1) {
+  background: var(--gradient-text2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.dt8__need__statement span:nth-child(3) {
+  background: var(--gradient-text2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+}
+
+.dt8__need__statement span:nth-child(5) {
+  background: var(--gradient-text2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+}
+

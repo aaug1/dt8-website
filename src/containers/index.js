@@ -4,3 +4,5 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Possibility } from './possibility/Possibility';
 export { default as WhatDT8 } from './whatDT8/WhatDT8';
+export { default as Need } from './need/Need';
+export { default as Team } from './team/Team';

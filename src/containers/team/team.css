@@ -1,0 +1,11 @@
+.dt8__team-header__container {
+  display: flex;;
+  margin: 50px;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt8__team-header__container h1 {
+  font-size: 5vw;
+}

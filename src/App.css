@@ -38,6 +38,16 @@ a {
   font-family: var(--font-family);
 }
 
+.gradient__text_2 {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: var(--font-family);
+}
+
 .section__padding {
   padding: 4rem 6rem;
 }
